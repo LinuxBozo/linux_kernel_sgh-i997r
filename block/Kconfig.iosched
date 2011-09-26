@@ -89,12 +89,9 @@ choice
 	config DEFAULT_SIO
 		bool "SIO" if IOSCHED_SIO=y
 
-<<<<<<< HEAD
-=======
 	config DEFAULT_BFQ
 		bool "BFQ" if IOSCHED_BFQ=y
 
->>>>>>> e963add3293068ece8555bdd358415172d26adb8
 	config DEFAULT_NOOP
 		bool "No-op"
 
